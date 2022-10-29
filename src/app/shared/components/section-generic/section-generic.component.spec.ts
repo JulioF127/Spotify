@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SideBarComponent } from './side-bar.component';
+import { SectionGenericComponent } from './section-generic.component';
 
-describe('SidebarComponent', () => {
-  let component: SideBarComponent;
-  let fixture: ComponentFixture<SideBarComponent>;
+describe('SectionGenericComponent', () => {
+  let component: SectionGenericComponent;
+  let fixture: ComponentFixture<SectionGenericComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SideBarComponent ]
+      declarations: [ SectionGenericComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SideBarComponent);
+    fixture = TestBed.createComponent(SectionGenericComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
