@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FavoritesPageComponent } from './favorites-page.component';
+import { FavoritePageComponent } from './favorite-page.component';
 
-describe('FavoritesPageComponent', () => {
-  let component: FavoritesPageComponent;
-  let fixture: ComponentFixture<FavoritesPageComponent>;
+describe('FavoritePageComponent', () => {
+  let component: FavoritePageComponent;
+  let fixture: ComponentFixture<FavoritePageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FavoritesPageComponent ]
+      declarations: [ FavoritePageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FavoritesPageComponent);
+    fixture = TestBed.createComponent(FavoritePageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
